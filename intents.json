@@ -1,0 +1,44 @@
+{"intents": [
+        {"tag": "saudações",
+         "patterns": ["Oi", "Olá", "Tudo bem?", "Hey", "Bom dia", "Boa Tarde", "Boa Noite" ],
+		"responses": ["Oi! Sou LEO, Bem Vindo ao Atendimento da Uniasselvi \n Para Informações digite 1 \n Para Cursos Digite 2 \n Para Reiniciar o atendimento digite - voltar"],
+         "context_set": ""
+        },
+        {"tag": "Informações",
+         "patterns": ["1", "voltar"],
+         "responses": ["Sobre Cursos - 2 \n O que é CPA? - CPA\n Conversar pelo WhatsApp! - WP"],
+         "context_set": ""
+        },
+        {"tag": "coleta",
+         "patterns": ["CPA"],
+         "responses": ["CPA é um meio da Instituição coletar informações sobre a interatividade das aula!"],
+         "context_set": ""
+        } ,
+        {"tag": "Atendente",
+         "patterns": ["WP", "whats", "atendente"],
+         "responses": ["Clique no link para direcionar ao seu WhatsApp \n https://wa.me/+5581992485768"],
+         "context_set": ""
+        },
+        {"tag": "Cursos",
+         "patterns": ["Cursos", "Quais", "Relação", "lista", "Todos", "2"],
+		"responses": ["Direito \n Big Data e Inteligência Analítica \n Enfermagem \n Fisioterapia \n ADS \n Big Data"],
+         "context_set": ""
+        },
+		{"tag": "Duvida",
+         "patterns": ["Dúvida", "não entendi", "repete", "confuso"],
+         "responses": ["Se não coseguimos te atender por aqui, entre em nosso site e aproveite para nos conhecer melhor \n www.uniasselvi.com.br"],
+         "context_set": ""
+        },
+        {"tag": "Despedida",
+         "patterns": ["tchau", "adeus", "até a proxima", "até logo" , "ok obg", "ok"],
+         "responses": ["Tchau! Te vejo Formado!", "Volte sempre a Uniasselvi "],
+         "context_set": ""
+        },
+        {"tag": "incognito",
+         "patterns": [""],
+         "responses": ["Não entendi, escolha uma opão!"],
+         "context_set": ""
+        }
+		
+   ]
+}
